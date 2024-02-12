@@ -8,13 +8,11 @@ public class Solution {
 
         int shortestStrLength = lengthOfShortestString(strs);
 
-        System.out.println("Shortest String: " + shortestStrLength);
         if (shortestStrLength == 0) {
             return longest;
         }
 
         for (int i=0; i<shortestStrLength; i++) {
-            System.out.println("i:" + i);
             char c = strs[0].charAt(i);
             if (allPositionsSame(strs, i, c)) {
                 longest += c;
@@ -34,7 +32,7 @@ public class Solution {
                 return 0;
             }
 
-            if (s.length < length) {
+            if (s.length() < length) {
                 length = s.length();
             }
         }

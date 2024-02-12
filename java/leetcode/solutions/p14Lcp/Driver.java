@@ -11,10 +11,10 @@ public class Driver {
         String[] strs4 = { "a", ""};
 
 
-//        System.out.println(solution.longestCommonPrefix(strs));
+        System.out.println(solution.longestCommonPrefix(strs));
 //        System.out.println(solution.longestCommonPrefix(strs2));
-        System.out.println(solution.longestCommonPrefix(strs3));
-        System.out.println(solution.longestCommonPrefix(strs4));
+//        System.out.println(solution.longestCommonPrefix(strs3));
+//       System.out.println(solution.longestCommonPrefix(strs4));
 
 
     }

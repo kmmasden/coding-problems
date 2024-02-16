@@ -2,7 +2,7 @@ package solutions;
 
 import java.util.HashMap;
 
-public class p383Ransom {
+public class P383Ransom {
 
     public static boolean canConstruct(String ransomNote, String magazine) {
         //If magazine str length is less than ransom note than automatically, we cannot construct

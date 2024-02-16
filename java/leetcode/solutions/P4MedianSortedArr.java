@@ -1,8 +1,6 @@
 package solutions;
 
-import java.util.Arrays;
-
-public class p4MedianSortedArr {
+public class P4MedianSortedArr {
 
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n = nums1.length;

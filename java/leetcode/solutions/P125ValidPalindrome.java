@@ -1,6 +1,6 @@
 package solutions;
 
-public class p125ValidPalindrome {
+public class P125ValidPalindrome {
 
     public static boolean isPalindrome(String s) {
         //remove all nonalphanumeric characters

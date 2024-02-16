@@ -1,6 +1,6 @@
 package solutions;
 
-public class p1768MergeStrings {
+public class P1768MergeStrings {
 
     public static String mergeAlternately(String word1, String word2) {
         int l1 = word1.length();
